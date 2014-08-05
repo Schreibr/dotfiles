@@ -1,0 +1,24 @@
+[user]
+	email = d.haegler@hotmail.de
+	name = Dennis Haegler
+[push]
+	default = simple
+[merge]
+	tool = vimdiff
+[core]
+	editor = vim
+[color]
+	ui = true
+[alias]
+	br = branch
+	c = commit
+	ch = checkout
+	co = checkout
+	df = diff
+	rb = rebase
+	st = status
+	sa = stash
+	mt = mergetool
+	cp = cherry-pick
+	sm = submodule
+	s = status
