@@ -79,3 +79,4 @@ export PATH="/home/dennis/.rvm/gems/ruby-2.1.1/bin:/home/dennis/.rvm/gems/ruby-2
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias vimconfig="vim ~/.vim/vimrc"
