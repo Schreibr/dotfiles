@@ -55,8 +55,8 @@ export PATH="/home/dennis/.rvm/gems/ruby-2.1.1/bin:/home/dennis/.rvm/gems/ruby-2
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-# export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -76,6 +76,9 @@ export PATH="/home/dennis/.rvm/gems/ruby-2.1.1/bin:/home/dennis/.rvm/gems/ruby-2
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
+set -o emacs
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
+alias vimconfig="vim ~/.vim/vimrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+
