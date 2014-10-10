@@ -81,8 +81,3 @@ set -o emacs
 alias zshconfig="vim ~/.zshrc"
 alias vimconfig="vim ~/.vim/vimrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-<<<<<<< HEAD
-
-=======
-alias vimconfig="vim ~/.vim/vimrc"
->>>>>>> f9c259d9c258d9b37702df68b908b2dcc9247a5a
