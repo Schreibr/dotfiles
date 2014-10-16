@@ -22,3 +22,4 @@
 	cp = cherry-pick
 	sm = submodule
 	s = status
+  pl = pull --rebase
