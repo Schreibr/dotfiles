@@ -83,3 +83,6 @@ alias zshconfig="vim ~/.zshrc"
 alias vimconfig="vim ~/.vim/vimrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias gitconfig='vim ~/.gitconfig'
+alias vimdir="cd ~/.vim"
+alias dotfiledir="cd ~/dotfile"
+alias migrate='be rake db:migrate && RAILS_ENV=test be rake db:migrate && be rake parallel:prepare'
